@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>713</width>
+    <height>654</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>VK</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="inter_login">
+    <property name="geometry">
+     <rect>
+      <x>66</x>
+      <y>9</y>
+      <width>161</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inter_password">
+    <property name="geometry">
+     <rect>
+      <x>331</x>
+      <y>9</y>
+      <width>161</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhHiddenText|Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText|Qt::ImhSensitiveData</set>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>9</y>
+      <width>52</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Login:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>237</x>
+      <y>9</y>
+      <width>88</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Password:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>7</x>
+      <y>40</y>
+      <width>91</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Message:</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="message">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>70</y>
+      <width>431</width>
+      <height>211</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="insert_message">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>281</y>
+      <width>430</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Insert</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="error_message">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>310</y>
+      <width>431</width>
+      <height>156</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>439</x>
+      <y>40</y>
+      <width>97</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>ID Group:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inter_id_group">
+    <property name="geometry">
+     <rect>
+      <x>439</x>
+      <y>70</y>
+      <width>167</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="error_id_group">
+    <property name="geometry">
+     <rect>
+      <x>439</x>
+      <y>100</y>
+      <width>267</width>
+      <height>141</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="insert_id_group">
+    <property name="geometry">
+     <rect>
+      <x>609</x>
+      <y>70</y>
+      <width>95</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Insert</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>439</x>
+      <y>250</y>
+      <width>97</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Photo:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inter_photo">
+    <property name="geometry">
+     <rect>
+      <x>439</x>
+      <y>280</y>
+      <width>167</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="error_photo">
+    <property name="geometry">
+     <rect>
+      <x>439</x>
+      <y>310</y>
+      <width>267</width>
+      <height>155</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="insert_photo">
+    <property name="geometry">
+     <rect>
+      <x>609</x>
+      <y>280</y>
+      <width>95</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Insert</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="publish">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>470</y>
+      <width>701</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Publish</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="error_publish">
+    <property name="geometry">
+     <rect>
+      <x>6</x>
+      <y>500</y>
+      <width>701</width>
+      <height>152</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
